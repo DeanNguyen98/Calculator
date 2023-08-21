@@ -13,3 +13,5 @@
 <br>
 
 <h1> Preview</h1>
+
+<p><a href="https://deannguyen98.github.io/Calculator/">Demo</a></p>
