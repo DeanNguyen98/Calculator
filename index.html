@@ -4,40 +4,56 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <script src="script.js"></script>
+    <script src="script.js" defer></script>
     <title>Calculator</title>
 </head>
 <body>
-
+    
     <div id="container">
         <div id="cal-container">
-            <div id="result-container"></div>
+            <div id="result-container">
+                <div id="previous-operand"></div>
+                <div id="current-operand"></div>
+            </div>
             <div id="button-container">
                 <div id="clear-btn-ctn">
                     <button id="clear" class="button">CLEAR</button>
                     <button id="Delete" class="button">DEL</button>
                 </div>
                 <div id="num-btn-ctn">
-                    <button class="number button">9</button>
-                    <button class="number button">8</button>
-                    <button class="number button">7</button>
-                    <button class="number button">/</button>
-                    <button class="number button">4</button>
-                    <button class="number button">5</button>
-                    <button class="number button">6</button>
-                    <button class="number button">x</button>
-                    <button class="number button">1</button>
-                    <button class="number button">2</button>
-                    <button class="number button">3</button>
-                    <button class="number button">-</button>
-                    <button class="number button">0</button>
-                    <button class="number button">.</button>
-                    <button class="number button">=</button>
-                    <button class="number button">+</button>
+                    <button data-number class="number button">9</button>
+                    <button data-number class="number button">8</button>
+                    <button data-number class="number button">7</button>
+                    <button data-operation class="number button">/</button>
+                    <button data-number class="number button">4</button>
+                    <button data-number class="number button">5</button>
+                    <button data-number class="number button">6</button>
+                    <button data-operation class="number button">x</button>
+                    <button data-number class="number button">1</button>
+                    <button data-number class="number button">2</button>
+                    <button data-number class="number button">3</button>
+                    <button data-operation class="number button">-</button>
+                    <button data-number class="number button">0</button>
+                    <button data-number class="number button">.</button>
+                    <button data-equal class="number button">=</button>
+                    <button data-operation class="number button">+</button>
                 </div>
             </div>
         </div>
     </div>
+    <div id="footer">
+        <p>Copyright DeanNguyen
+            <a href="https://github.com/your-username">
+                <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16"><path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0Zm2 4a2 2 0 1 0-2.95 1.76 1.87 1.87 0 0 0-.32.24H3.75a.75.75 0 0 0 0 1.5h2.363l-.607 5.67a.75.75 0 1 0 1.49.16l.25-2.33h1.508l.25 2.33a.75.75 0 0 0 1.492-.16L9.888 7.5h2.362a.75.75 0 0 0 0-1.5H9.27a1.98 1.98 0 0 0-.32-.24A2 2 0 0 0 10 4Z"></path></svg>
+            </a>
+            
+            
+            
+            
+            
+        </p>
+    </div>
+
 
 
     
